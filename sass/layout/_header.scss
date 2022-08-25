@@ -1,0 +1,142 @@
+
+.container {
+    background-color: #ffffff;
+    
+       
+               
+}
+
+.header__container {
+    @media screen and (min-width: 480px) {
+        width: 480px;
+            height: 60px;
+            display: flex;
+            margin: 0 auto;
+        
+        }
+         @media screen and (min-width: 768px) {
+            width: 768px;
+            height: 80px;
+         }
+
+                  @media screen and (min-width: 1200px){
+                width: 1600px;
+                    height: 80px;
+                  }
+
+}
+
+.header {
+
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid #ECECEC;
+    padding: 16px; 
+
+    &__web {
+            font-family: Raleway, sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.19;
+            color: #2196f3;
+            margin-right: 88px;
+            margin-top: 20px;
+            margin-left: 15px;
+            
+@media screen and (min-width: 1200px) {
+        margin-left: 215px;
+        margin-right: 93px;
+    }
+       
+        }
+    
+    &__studio {
+            font-family: Raleway, sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.19;
+            color: var(--primery-black-color);
+        }
+
+                
+}
+
+.header-contacts__list {
+    display: none;
+
+
+    @media screen and (min-width: 768px) {
+        display: block;
+ gap: 10px;}
+    
+// display: flex;
+//     margin-left: auto; }
+    
+    @media screen and (min-width: 1200px) {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        }
+
+
+// .flex__nav {
+//     display: flex;
+//      align-items: center;
+//     gap: 50px;
+// }
+
+ .header-contacts__link {
+   
+ color: #757575;
+ font-weight: 500;
+font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+ 
+ align-items: center;
+ gap: 10px;
+
+@media screen and (max-width: 480px) {
+
+        display: none;
+        
+    }
+ transition-property: color;
+ transition-duration: 250ms;
+ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ &:hover {
+ color: #2196f3;
+}
+
+}
+
+.header-contacts__item:last-child {
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 0px;
+        margin-left: 30px;
+    }
+}
+
+ 
+
+
+
+.smartphone-icon {
+    fill: currentColor;
+}
+
+.envelope-icons:hover {
+    fill: currentcolor;
+}
+
+.envelope-icons {
+    fill: currentcolor;
+}
