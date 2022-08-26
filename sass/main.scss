@@ -25,11 +25,7 @@
   | components
   |============================
 */
-@import "./components/button";
-@import "./components/logotype";
-@import "./components/overlay";
 @import "./components/container";
-@import "./components/mobile-menu";
 
 
 
@@ -41,16 +37,7 @@
   | layout
   |============================
 */
-@import "./layout/header";
-@import "./layout/navigation";
-@import "./layout/hero";
-@import "./layout/benefits";
-@import "./layout/section-work";
-@import "./layout/team";
-@import "./layout/clients";
-@import "./layout/footer";
-@import "./layout/portfolio";
-@import "./layout/modal";
-
+@import "./layout/subscribe";
+@import "./layout/customer";
 
 

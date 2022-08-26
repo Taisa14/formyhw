@@ -1,0 +1,15 @@
+.subscribe {
+    &__text{
+
+     margin-bottom: 88px;
+
+     @include media-query(tablet) {
+        font-size: 16px;
+        line-height: calc(24 / 16);
+     }
+
+    }
+    &__list {
+
+        @extend %list;
+}
